@@ -1,0 +1,12 @@
+<h1>compute and display score</h1>
+<p>votre réponse est <%= @query %></p>
+<p>votre score est <%= @resultat[:score] %></p>
+<p> le temps est de <%= @resultat[:time] %></p>
+<p> la traduction est <%= @resultat[:translation] %></p>
+<p> message <%= @resultat[:message] %></p>
+
+
+
+
+
+<p><%= link_to "restart", game_path %></p>

@@ -1,0 +1,11 @@
+<h1>voici la nouvelle grille <%= @grid %></h1>
+<p></p>
+<p></p>
+
+<form action="score">
+  <label for="question">mot?</label>
+  <input type="text" id="question" name="query" >
+  <input type="submit" value="Go on!">
+  <input type="hidden" name = "start_time" value= "<%= @start_time %>">
+  <input type="hidden" name = "grid" value= "<%= @grid %>">
+</form>
